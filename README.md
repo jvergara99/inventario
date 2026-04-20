@@ -12,7 +12,7 @@ API REST completa para gestionar el inventario de una tienda, construida en Spri
 ## Cómo ejecutar localmente
 ```bash
 # 1. Clonar el repositorio
-git clone ??????
+git clone https://github.com/jvergara99/inventario.git
 
 # 2. Entrar a la carpeta inventario
 cd inventario
