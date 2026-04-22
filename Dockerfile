@@ -5,7 +5,7 @@ COPY . .
 
 # 1. Asegúrate de que el nombre sea ./gradlew
 # 2. Dale permisos de ejecución
-# RUN sed -i 's/\r$//' gradlew && chmod +x gradlew
+RUN sed -i 's/\r$//' gradlew && chmod +x gradlew
 RUN ./gradlew build -x test --no-daemon
 
 # Etapa 2 Imagen ligera de runtime (producion)
